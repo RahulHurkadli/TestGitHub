@@ -1,0 +1,17 @@
+package in.ac.kletech;
+
+public class BankDemo 
+{
+
+	public static void main(String[] args) 
+	{
+	SBI sbi=new SBI();
+	BANK b;
+	b=sbi;
+	
+	b.deposite(1000);
+	b.withdraw(2000);
+
+	}
+
+}
